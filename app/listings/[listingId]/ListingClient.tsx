@@ -53,6 +53,7 @@ const ListingClient: React.FC<ListingClientProps> = ({
         return dates;
     }, [reservations]);
 
+
     const category = useMemo(() => {
         return categories.find((items) =>
             items.label === listing.category);

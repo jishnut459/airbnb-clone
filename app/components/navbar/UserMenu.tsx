@@ -63,6 +63,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                                 <MenuItem
                                     onClick={() => {
                                         toggleOpen()
+                                        router.push("/favorites")
                                     }}
                                     label="My favorites"
                                 />
@@ -76,6 +77,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                                 <MenuItem
                                     onClick={() => {
                                         toggleOpen()
+                                        router.push("/properties")
                                     }}
                                     label="My properties"
                                 />
